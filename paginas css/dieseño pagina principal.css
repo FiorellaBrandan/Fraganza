@@ -1,0 +1,44 @@
+.botonDescubrir {
+    margin: 10%;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+#cuidadoPiel {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+    
+}
+#fragancias {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+}
+#mascaraPestañas {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.btnCategorias {
+    margin: 5%;
+    padding: 8px; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-size: larger;
+    background-color: rgba(238, 205, 123, 0.918);
+    border: solid 5px #ddd 
+    
+}
+.linea {
+    padding: 8px;
+    margin:auto
+    width: 100%;
+    color: grey;
+
+}

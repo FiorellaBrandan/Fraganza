@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datos de contacto</title>
+    <link rel="stylesheet" href="../paginas css/contacto.css" />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css "
+    />
+  </head>
+  <body>
+    <!--Mapa de tienda-->
+    <div class="card">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.323560726044!2d-65.29898992654408!3d-26.82965923821557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94224331abed459f%3A0x46f9db6541ab3ef5!2sGral.%20Jos%C3%A9%20de%20San%20Mart%C3%ADn%201250%2C%20Yerba%20Buena%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1708373294985!5m2!1ses-419!2sar"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <!--Formulario de contacto-->
+    <form>
+        
+        <form class="row g-3">
+            <div class="col-md-4">
+                    <h2>Contacto</h2>
+
+          <label for="validationServer01" class="form-label">Nombre </label>
+          <input
+            type="text"
+            class="form-control is-valid"
+            id="validationServer01"
+            value=""
+            required
+          />
+          <div class="valid-feedback">Bien hecho!</div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationServer02" class="form-label">Apellido</label>
+          <input
+            type="text"
+            class="form-control is-valid"
+            id="validationServer02"
+            value=""
+            required
+          />
+          <div class="valid-feedback">Bien hecho!</div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationServerUsername" class="form-label"
+            >Correo Electronico</label
+          >
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend3">@</span>
+            <input
+              type="text"
+              class="form-control is-invalid"
+              id="validationServerUsername"
+              aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback"
+              required
+            />
+            <div id="validationServerUsernameFeedback" class="invalid-feedback">
+              Por favor, introduzca un correo.
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+            <label for="validationTextarea" class="form-label"> Consulta</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="escriba aquí su consulta" required></textarea>
+            <div class="invalid-feedback">
+              Por favor, envianos tu consulta.
+            </div>
+        </div>
+
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+    </div>
+      
+    </form>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  </html>

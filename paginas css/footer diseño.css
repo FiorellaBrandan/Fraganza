@@ -1,0 +1,43 @@
+.title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+
+.list{
+    list-style: none;
+}
+#btn{
+    border-radius: 10px;
+    color: dodgerblue;
+    background-color: black;
+    cursor: pointer;
+    
+}
+.card-footer{
+    display: flex;
+    justify-content:space-between ;
+}
+.socialFooter
+{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+@media only screen and (max-width: 600px) {
+    .fraganzaList {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .fraganzaCat{
+      display: none;
+    }
+  }
+
